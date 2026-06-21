@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Galeri | KGPM Sidang Anugerah Malalayang</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="galeri.html">
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container nav">
+
+            <a href="index.html" class="brand">
+                <img src="assets/logo-kgpm.png" alt="Logo KGPM">
+
+                <div>
+                    <strong>KGPM</strong>
+                    <span>Sidang Anugerah Malalayang</span>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+            <nav class="menu" id="menu">
+                <a href="index.html">Beranda</a>
+                <a href="tentang.html">Tentang Kami</a>
+                <a href="jadwal.html">Jadwal Ibadah</a>
+                <a href="kegiatan.html">Kegiatan</a>
+                <a href="galeri.html">Galeri</a>
+                <a href="donasi.html">Donasi</a>
+                <a href="kontak.html">Kontak</a>
+            </nav>
+
+            <a href="donasi.html" class="donate-btn">
+                ❤ Persembahan
+            </a>
+
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Galeri</h1>
+                <p>
+                    Foto gereja, pelayanan, dan kegiatan jemaat.
+                </p>
+            </div>
+        </section>
+
+        <!-- GALERI FOTO -->
+        <section class="section">
+            <div class="container">
+
+                <div class="gallery-page">
+
+                    <a href="assets/galeri-1.jpg" target="_blank">
+                        <img
+                        src="assets/galeri-1.jpg"
+                        alt="Galeri KGPM 1"
+                        onclick="openLightbox(this)">
+                    </a>
+
+                    <a href="assets/galeri-2.jpg" target="_blank">
+                        <img
+                            src="assets/galeri-2.jpg"
+                            alt="Galeri KGPM 2"
+                        onclick="openLightbox(this)">
+                    </a>
+
+                    <a href="assets/galeri-3.jpg" target="_blank">
+                        <img
+                            src="assets/galeri-3.jpg"
+                            alt="Galeri KGPM 3"
+                        onclick="openLightbox(this)">
+                    </a>
+
+                    <a href="assets/galeri-4.jpg" target="_blank">
+                        <img
+                            src="assets/galeri-4.jpg"
+                            alt="Galeri KGPM 4"
+                        onclick="openLightbox(this)">
+                    </a>
+
+                    <a href="assets/galeri-5.jpg" target="_blank">
+                        <img
+                            src="assets/galeri-5.jpg"
+                            alt="Galeri KGPM 5"
+                        onclick="openLightbox(this)">
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- LIGHTBOX -->
+        <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+
+            <span class="close">
+                &times;
+            </span>
+
+            <img
+                id="lightbox-img"
+                src=""
+                alt="Preview Galeri">
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+                <h3>KGPM Sidang Anugerah Malalayang</h3>
+
+                <p>
+                    Bertumbuh dalam iman,
+                    melayani dengan kasih,
+                    dan menjadi berkat.
+                </p>
+            </div>
+
+            <div>
+                <h4>Kontak</h4>
+
+                <p>Malalayang, Manado, Sulawesi Utara</p>
+                <p>WhatsApp: 0812-3456-7890</p>
+            </div>
+
+            <div>
+                <h4>Menu</h4>
+
+                <p>
+                    <a href="jadwal.html">Jadwal</a> ·
+                    <a href="donasi.html">Donasi</a> ·
+                    <a href="galeri.html">Galeri</a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 KGPM Sidang Anugerah Malalayang
+        </div>
+
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a
+        class="wa-float"
+        href="https://wa.me/6281234567890"
+        target="_blank">
+
+        WA
+
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
